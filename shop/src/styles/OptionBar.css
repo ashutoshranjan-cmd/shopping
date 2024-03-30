@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.option{
+    margin-top: 4rem;
+    position:fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+}
+nav{
+
+  
+    height:2rem;
+    background-color: rgb(90, 88, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.active{
+    color: greenyellow;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    padding: 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+}
+li a:hover{
+    color: greenyellow;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color: black;
+    margin-top:10rem;
+    color: white;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid white; */
+
+}
+.section .footerLogo{
+    height: 20rem;
+    width: 20rem;
+}
+.section ul{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.section ul li{
+    margin: 10px;
+    font-weight: bolder;
+}
